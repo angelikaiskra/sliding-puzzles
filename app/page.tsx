@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Hero from "@/sections/Hero";
 
-export default function Game() {
+export default function Home() {
   return (
-    <main className="">
-      Main Page
-    </main>
+    <>
+      <Hero />
+    </>
   );
 }
