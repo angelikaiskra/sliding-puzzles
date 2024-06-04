@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+    <img alt="Sliding Puzzles Logo" src="public/logo.svg">
+</p>
 
-## Getting Started
+Online game platform with sliding puzzles, built with Next.js, featuring a catalog and the ability to upload custom images.
 
-First, run the development server:
+---
+
+## How to play?
+Sliding puzzles are a game where you move pieces around on a board to make a picture or sequence. You slide the pieces into the empty space without lifting them off the board.
+To start playing, simply select a puzzle from the catalog or upload your own image. The game starts with the pieces all mixed up, and you have to slide them around until they are in the right order.
+Have fun! :D
+
+---
+## Development
+
+Running the development server:
 
 ```bash
 npm run dev
@@ -16,21 +28,13 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
+## License
+Copyright (C) 2024 Angelika Iskra
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-## Learn More
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-To learn more about Next.js, take a look at the following resources:
+You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
